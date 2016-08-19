@@ -3377,6 +3377,7 @@
 		Velocity = $.extend(animate, Velocity);
 		/* For legacy support, also expose the literal animate method. */
 		Velocity.animate = animate;
+		Velocity.getEasing = getEasing;
 
 		/**************
 		 Timing
